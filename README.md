@@ -7,6 +7,9 @@
 Tudo pode ser melhor quando a **inteligência e a tecnologia** sentam para conversar. Somos desenvolvedores sedentos por inovação, prontos para criar uma vastidão de soluções web para o seu negócio.
 
 <div align="center">
+  <a href="https://wa.me/5554999633790" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&color=03DEE3&logo=whatsapp&logoColor=white" height="35" alt="whatsapp"/>
+  </a>
   <a href="https://octalweb.com.br/" target="_blank"> 
     <img src="https://img.shields.io/static/v1?message=Site&logo=web&label=&color=black&logoColor=black&labelColor=black&style=for-the-badge" height="35" alt="site" />
   </a>
