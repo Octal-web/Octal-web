@@ -40,12 +40,6 @@ Tudo pode ser melhor quando a **inteligência e a tecnologia** sentam para conve
 
 ---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Octal-web&layout=compact&langs_count=20&theme=dark" alt="Github top linguagens"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Octal-web&theme=dark" alt="Github estatísticas"/>
-</div>
-
----
 
 <div align="center">
 
