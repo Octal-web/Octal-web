@@ -28,16 +28,14 @@ const fs = require('fs');
     });
 
     const newContent = `
-    <!--PROJECT_STATS_START-->
-    🚀 Projetos em produção: ${production}
+    🚀 Projetos publicados: ${production}
 
     👩‍💻 Projetos em desenvolvimento: ${development}
-    <!--PROJECT_STATS_END-->
     `;
 
     let readme = fs.readFileSync('README.md', 'utf8');
 
-    readme = readme.replace(/<!--PROJECT_STATS_START-->[\s\S]*<!--PROJECT_STATS_END-->/, newContent);
+    readme = readme.replace(/(<!--PROJECT_STATS_START-->)[\s\S]*(<!--PROJECT_STATS_END-->)/, `$1\n${newContent}\n$2`);
 
     fs.writeFileSync('README.md', readme);
 })();
