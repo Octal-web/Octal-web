@@ -28,12 +28,10 @@ Tudo pode ser melhor quando a **inteligência e a tecnologia** sentam para conve
 
 ### Estatísticas:
 
-
-    + Projetos em produção: 4
-
-    + Projetos em desenvolvimento: 3
+<!--PROJECT_STATS_START-->
+Carregando...
+<!--PROJECT_STATS_END-->
     
-
 ---
 
 ### O que fazemos:
