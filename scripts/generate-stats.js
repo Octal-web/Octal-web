@@ -1,4 +1,5 @@
 const fs = require('fs');
+const createStatsCard = require('./stats-template');
 
 (async () => {
     const token = process.env.GH_TOKEN;
@@ -27,15 +28,14 @@ const fs = require('fs');
         }
     });
 
-    const newContent = `
-    🚀 Projetos publicados: ${production}
-
-    👩‍💻 Projetos em desenvolvimento: ${development}
-    `;
+    const newContent = createStatsCard(production, development);
+    fs.mkdirSync('assets', { recursive: true });
+    fs.writeFileSync('assets/project-stats.svg', newContent);
 
     let readme = fs.readFileSync('README.md', 'utf8');
+    const imgTag = `<img src="./assets/project-stats.svg" alt="Project Stats" width="760"/>`;
 
-    readme = readme.replace(/(<!--PROJECT_STATS_START-->)[\s\S]*(<!--PROJECT_STATS_END-->)/, `$1\n${newContent}\n$2`);
+    readme = readme.replace(/(<!--PROJECT_STATS_START-->)[\s\S]*(<!--PROJECT_STATS_END-->)/, `$1\n${imgTag}\n$2`);
 
     fs.writeFileSync('README.md', readme);
 })();
