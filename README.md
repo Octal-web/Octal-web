@@ -29,7 +29,7 @@ Tudo pode ser melhor quando a **inteligência e a tecnologia** sentam para conve
 ### Estatísticas:
 
 
-    <!--PROJECT_STATS_START-->
+<!--PROJECT_STATS_START-->
 
     🚀 Projetos publicados: 10
 
