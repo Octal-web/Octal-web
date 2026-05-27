@@ -30,10 +30,12 @@ Tudo pode ser melhor quando a **inteligência e a tecnologia** sentam para conve
 
 
     <!--PROJECT_STATS_START-->
-    🚀 Projetos em produção: 10
+
+    🚀 Projetos publicados: 10
 
     👩‍💻 Projetos em desenvolvimento: 7
-    <!--PROJECT_STATS_END-->
+    
+<!--PROJECT_STATS_END-->
     
     
 ---
