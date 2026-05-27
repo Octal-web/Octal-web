@@ -28,11 +28,13 @@ Tudo pode ser melhor quando a **inteligência e a tecnologia** sentam para conve
 
 ### Estatísticas:
 
+<div align="center">
 
 <!--PROJECT_STATS_START-->
 <img src="./assets/project-stats.svg" alt="Project Stats" width="760"/>
 <!--PROJECT_STATS_END-->
-    
+  
+</div>
     
 ---
 
