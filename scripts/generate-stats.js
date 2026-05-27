@@ -3,7 +3,7 @@ const fs = require('fs');
 (async () => {
     const token = process.env.GH_TOKEN;
 
-    const response = await fetch(`https://api.github.com/users/Octal-web/repos`, {
+    const response = await fetch(`https://api.github.com/user/repos?visibility=all`, {
         headers: {
             Authorization: `Bearer ${token}`,
             Accept: 'application/vnd.github+json',
@@ -28,9 +28,11 @@ const fs = require('fs');
     });
 
     const newContent = `
-    + Projetos em produção: ${production}
+    <!--PROJECT_STATS_START-->
+    🚀 Projetos em produção: ${production}
 
-    + Projetos em desenvolvimento: ${development}
+    👩‍💻 Projetos em desenvolvimento: ${development}
+    <!--PROJECT_STATS_END-->
     `;
 
     let readme = fs.readFileSync('README.md', 'utf8');
